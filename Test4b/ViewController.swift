@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewController.swiftpreguntasViewController
 //  Test4b
 //
 //  Created by  on 21/1/16.
