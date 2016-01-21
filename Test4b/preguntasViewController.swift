@@ -18,22 +18,21 @@ struct Pregunta{
 
 class preguntasViewController: UIViewController {
     
-    let preguntas: [Pregunta] =
+    let arrayPreguntas: [Pregunta] =
         [
-            ("Pregunta", "Respuesta 1", "Respuesta 2", "Respuesta 3", "Respuesta 2"),
+            Pregunta(preg: "Pregunta", r1: "Respuesta 1", r2: "Respuesta 2", r3: "Respuesta 3", corr: "Correcta")
         ]
     
-    @IBOutlet weak var pregunta: UILabel!
+    var contador = 0;
+    
+    @IBOutlet weak var question: UILabel!
     @IBOutlet weak var resp1: UILabel!
     @IBOutlet weak var resp2: UILabel!
     @IBOutlet weak var resp3: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        resp1.text = "pene"
-        resp2.text = "pito"
-        resp3.text = "pilingui"
+        cargarPregunta(contador)
 
         // Do any additional setup after loading the view.
     }
@@ -41,6 +40,14 @@ class preguntasViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func cargarPregunta(contador:Int){
+        let p = arrayPreguntas[contador]
+        question.text = p.preg
+        resp1.text = p.r1
+        resp2.text = p.r2
+        resp3.text = p.r3
     }
     
     
