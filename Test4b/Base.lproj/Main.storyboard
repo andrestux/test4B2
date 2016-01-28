@@ -349,9 +349,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ncs-K5-G6l">
-                                <rect key="frame" x="37" y="335" width="295" height="145"/>
+                                <rect key="frame" x="45" y="452" width="295" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="145" id="o8b-TD-KmW"/>
+                                    <constraint firstAttribute="height" constant="34" id="o8b-TD-KmW"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Empezar de nuevo!"/>
@@ -360,7 +360,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBI-Sq-B2D">
-                                <rect key="frame" x="54" y="130" width="261" height="230"/>
+                                <rect key="frame" x="62" y="110" width="261" height="230"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="261" id="4lU-bM-dqK"/>
                                 </constraints>
@@ -368,20 +368,175 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Dw-c0-jNn">
+                                <rect key="frame" x="126" y="384" width="39" height="38"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="irPregunta7:" destination="9f3-ks-OMr" eventType="touchUpInside" id="ZhI-dF-Hkk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVH-t3-7hL">
+                                <rect key="frame" x="173" y="343" width="39" height="38"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="39" id="icy-Ak-yy5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="3"/>
+                                <connections>
+                                    <action selector="irPregunta3:" destination="9f3-ks-OMr" eventType="touchUpInside" id="cIS-G6-VzF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nj-gn-hZw" customClass="UIlabel">
+                                <rect key="frame" x="79" y="343" width="39" height="38"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="39" id="CuM-el-gIc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="irPregunta1:" destination="9f3-ks-OMr" eventType="touchUpInside" id="HNf-2F-Imb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98i-pd-6Mn">
+                                <rect key="frame" x="224" y="343" width="30" height="38"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="4"/>
+                                <connections>
+                                    <action selector="irPregunta4:" destination="9f3-ks-OMr" eventType="touchUpInside" id="06h-n6-Rgu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zp3-RH-kCi">
+                                <rect key="frame" x="220" y="384" width="39" height="38"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="9"/>
+                                <connections>
+                                    <action selector="irPregunta9:" destination="9f3-ks-OMr" eventType="touchUpInside" id="QQv-Iw-3CF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="br9-pA-XhY">
+                                <rect key="frame" x="79" y="384" width="39" height="38"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="6"/>
+                                <connections>
+                                    <action selector="irPregunta6:" destination="9f3-ks-OMr" eventType="touchUpInside" id="hnG-mS-4rF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AV5-xk-qRi">
+                                <rect key="frame" x="267" y="343" width="39" height="38"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="39" id="Ll9-jD-8kw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="irPregunta5:" destination="9f3-ks-OMr" eventType="touchUpInside" id="2eu-Pl-Wpi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kaJ-vy-Mjw">
+                                <rect key="frame" x="173" y="384" width="39" height="38"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="8"/>
+                                <connections>
+                                    <action selector="irPregunta8:" destination="9f3-ks-OMr" eventType="touchUpInside" id="B0i-d6-5hi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2A-Z4-4Up">
+                                <rect key="frame" x="130" y="343" width="30" height="38"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="irPregunta2:" destination="9f3-ks-OMr" eventType="touchUpInside" id="pjc-9S-rVx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJe-vA-EWX">
+                                <rect key="frame" x="267" y="384" width="39" height="38"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="10"/>
+                                <connections>
+                                    <action selector="irPregunta10:" destination="9f3-ks-OMr" eventType="touchUpInside" id="MMc-Jd-WIV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="kaJ-vy-Mjw" firstAttribute="top" secondItem="wVH-t3-7hL" secondAttribute="bottom" constant="3" id="0kr-np-J28"/>
+                            <constraint firstItem="br9-pA-XhY" firstAttribute="leading" secondItem="6nj-gn-hZw" secondAttribute="leading" id="1T5-al-b38"/>
+                            <constraint firstItem="c2A-Z4-4Up" firstAttribute="leading" secondItem="6nj-gn-hZw" secondAttribute="trailing" constant="12" id="2ix-5U-nG3"/>
+                            <constraint firstItem="98i-pd-6Mn" firstAttribute="baseline" secondItem="AV5-xk-qRi" secondAttribute="baseline" id="2uT-HP-zrN"/>
+                            <constraint firstItem="kaJ-vy-Mjw" firstAttribute="leading" secondItem="5Dw-c0-jNn" secondAttribute="trailing" constant="8" symbolic="YES" id="5Dq-tr-HOh"/>
+                            <constraint firstItem="wVH-t3-7hL" firstAttribute="top" secondItem="lBI-Sq-B2D" secondAttribute="bottom" constant="3" id="8Bj-7u-nIu"/>
+                            <constraint firstItem="wVH-t3-7hL" firstAttribute="baseline" secondItem="98i-pd-6Mn" secondAttribute="baseline" id="9m7-MJ-7sm"/>
                             <constraint firstItem="e5K-dA-if9" firstAttribute="top" secondItem="sEr-h7-eQg" secondAttribute="bottom" id="Aql-Oc-Hfx"/>
                             <constraint firstItem="e5K-dA-if9" firstAttribute="leading" secondItem="9xi-w9-0E5" secondAttribute="leadingMargin" id="DEt-rE-Dnm"/>
-                            <constraint firstItem="lBI-Sq-B2D" firstAttribute="top" secondItem="sEr-h7-eQg" secondAttribute="bottom" constant="110" id="EAN-94-0Zd"/>
-                            <constraint firstItem="nl3-Qh-uXD" firstAttribute="top" secondItem="Ncs-K5-G6l" secondAttribute="bottom" constant="120" id="EeD-Fn-tCr"/>
-                            <constraint firstItem="lBI-Sq-B2D" firstAttribute="leading" secondItem="9xi-w9-0E5" secondAttribute="leadingMargin" constant="34" id="L5U-U1-zfq"/>
-                            <constraint firstItem="Ncs-K5-G6l" firstAttribute="leading" secondItem="9xi-w9-0E5" secondAttribute="leadingMargin" constant="17" id="mXG-w3-WPt"/>
-                            <constraint firstItem="nl3-Qh-uXD" firstAttribute="top" secondItem="lBI-Sq-B2D" secondAttribute="bottom" constant="240" id="rvQ-6V-ncS"/>
+                            <constraint firstItem="98i-pd-6Mn" firstAttribute="leading" secondItem="6nj-gn-hZw" secondAttribute="trailing" constant="106" id="E1c-aR-okA"/>
+                            <constraint firstItem="lBI-Sq-B2D" firstAttribute="top" secondItem="sEr-h7-eQg" secondAttribute="bottom" constant="90" id="EAN-94-0Zd"/>
+                            <constraint firstItem="nl3-Qh-uXD" firstAttribute="top" secondItem="Ncs-K5-G6l" secondAttribute="bottom" constant="114" id="EeD-Fn-tCr"/>
+                            <constraint firstItem="hJe-vA-EWX" firstAttribute="top" secondItem="AV5-xk-qRi" secondAttribute="bottom" constant="3" id="GnV-lM-slO"/>
+                            <constraint firstItem="hJe-vA-EWX" firstAttribute="leading" secondItem="Zp3-RH-kCi" secondAttribute="trailing" constant="8" symbolic="YES" id="ICY-w4-KhH"/>
+                            <constraint firstItem="lBI-Sq-B2D" firstAttribute="leading" secondItem="9xi-w9-0E5" secondAttribute="leadingMargin" constant="42" id="L5U-U1-zfq"/>
+                            <constraint firstItem="wVH-t3-7hL" firstAttribute="centerX" secondItem="e5K-dA-if9" secondAttribute="centerX" id="Mpn-6e-9gO"/>
+                            <constraint firstItem="c2A-Z4-4Up" firstAttribute="baseline" secondItem="wVH-t3-7hL" secondAttribute="baseline" id="Pje-vt-9G8"/>
+                            <constraint firstItem="5Dw-c0-jNn" firstAttribute="top" secondItem="c2A-Z4-4Up" secondAttribute="bottom" constant="3" id="R6u-Aa-p5Q"/>
+                            <constraint firstItem="c2A-Z4-4Up" firstAttribute="baseline" secondItem="6nj-gn-hZw" secondAttribute="baseline" id="Rwt-IN-7WP"/>
+                            <constraint firstItem="wVH-t3-7hL" firstAttribute="leading" secondItem="6nj-gn-hZw" secondAttribute="trailing" constant="55" id="TwY-Hn-tdW"/>
+                            <constraint firstItem="hJe-vA-EWX" firstAttribute="trailing" secondItem="AV5-xk-qRi" secondAttribute="trailing" id="YVa-aS-r8j"/>
+                            <constraint firstItem="AV5-xk-qRi" firstAttribute="leading" secondItem="6nj-gn-hZw" secondAttribute="trailing" constant="149" id="cks-9T-wsU"/>
+                            <constraint firstItem="5Dw-c0-jNn" firstAttribute="baseline" secondItem="br9-pA-XhY" secondAttribute="baseline" id="etB-Sw-6Km"/>
+                            <constraint firstItem="br9-pA-XhY" firstAttribute="top" secondItem="6nj-gn-hZw" secondAttribute="bottom" constant="3" id="lCe-tr-hbU"/>
+                            <constraint firstItem="Ncs-K5-G6l" firstAttribute="leading" secondItem="9xi-w9-0E5" secondAttribute="leadingMargin" constant="25" id="mXG-w3-WPt"/>
+                            <constraint firstItem="kaJ-vy-Mjw" firstAttribute="leading" secondItem="wVH-t3-7hL" secondAttribute="leading" id="n0h-f8-ndO"/>
+                            <constraint firstItem="br9-pA-XhY" firstAttribute="trailing" secondItem="6nj-gn-hZw" secondAttribute="trailing" id="n88-6x-oAx"/>
+                            <constraint firstItem="Zp3-RH-kCi" firstAttribute="leading" secondItem="kaJ-vy-Mjw" secondAttribute="trailing" constant="8" symbolic="YES" id="oUA-vS-qXO"/>
+                            <constraint firstItem="Zp3-RH-kCi" firstAttribute="top" secondItem="98i-pd-6Mn" secondAttribute="bottom" constant="3" id="p0y-m1-LUD"/>
+                            <constraint firstItem="5Dw-c0-jNn" firstAttribute="leading" secondItem="br9-pA-XhY" secondAttribute="trailing" constant="8" symbolic="YES" id="p1p-10-NGc"/>
+                            <constraint firstItem="kaJ-vy-Mjw" firstAttribute="trailing" secondItem="wVH-t3-7hL" secondAttribute="trailing" id="paN-aK-JSH"/>
+                            <constraint firstItem="nl3-Qh-uXD" firstAttribute="top" secondItem="lBI-Sq-B2D" secondAttribute="bottom" constant="260" id="rvQ-6V-ncS"/>
+                            <constraint firstItem="AV5-xk-qRi" firstAttribute="leading" secondItem="hJe-vA-EWX" secondAttribute="leading" id="ujY-7N-amh"/>
                             <constraint firstItem="lBI-Sq-B2D" firstAttribute="centerX" secondItem="Ncs-K5-G6l" secondAttribute="centerX" id="v8s-IH-IYq"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="b1" destination="6nj-gn-hZw" id="1qy-gT-cw6"/>
+                        <outlet property="b10" destination="hJe-vA-EWX" id="mW3-8X-1kp"/>
+                        <outlet property="b2" destination="c2A-Z4-4Up" id="EnH-V7-Gra"/>
+                        <outlet property="b3" destination="wVH-t3-7hL" id="zZ5-3U-qAQ"/>
+                        <outlet property="b4" destination="98i-pd-6Mn" id="xMn-LT-3iQ"/>
+                        <outlet property="b5" destination="AV5-xk-qRi" id="bSo-KE-L2j"/>
+                        <outlet property="b6" destination="br9-pA-XhY" id="lIT-DY-pyb"/>
+                        <outlet property="b7" destination="5Dw-c0-jNn" id="hU6-fc-62H"/>
+                        <outlet property="b8" destination="kaJ-vy-Mjw" id="JmO-pJ-AzB"/>
+                        <outlet property="b9" destination="Zp3-RH-kCi" id="KsY-8H-Cdc"/>
                         <outlet property="lbResultado" destination="lBI-Sq-B2D" id="CS5-H8-tIT"/>
                     </connections>
                 </viewController>
