@@ -42,6 +42,16 @@ class preguntasViewController: UIViewController {
     @IBOutlet weak var botonA: UIButton!
     @IBOutlet weak var botonC: UIButton!
     @IBOutlet weak var botonB: UIButton!
+    @IBOutlet weak var boton1: UIButton!
+    @IBOutlet weak var boton2: UIButton!
+    @IBOutlet weak var boton3: UIButton!
+    @IBOutlet weak var boton4: UIButton!
+    @IBOutlet weak var boton5: UIButton!
+    @IBOutlet weak var boton6: UIButton!
+    @IBOutlet weak var boton7: UIButton!
+    @IBOutlet weak var boton8: UIButton!
+    @IBOutlet weak var boton9: UIButton!
+    @IBOutlet weak var boton10: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -82,12 +92,62 @@ class preguntasViewController: UIViewController {
                 
             }
         }
+        
+        toBlack()
+        
+        switch(contador){
+            case 0:
+                boton1.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+                break;
+            case 1:
+                boton2.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+                break;
+            case 2:
+                boton3.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+                break;
+            case 3:
+                boton4.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+                break;
+            case 4:
+                boton5.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+                break;
+            case 5:
+                boton6.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+                break;
+            case 6:
+                boton7.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+                break;
+            case 7:
+                boton8.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+                break;
+            case 8:
+                boton9.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+                break;
+            case 9:
+                boton10.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+                break;
+            default:
+                break;
+        }
     }
     
     func resetOpciones(){
         botonA.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
         botonB.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
         botonC.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+    }
+    
+    func toBlack(){
+        boton1.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        boton2.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        boton3.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        boton4.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        boton5.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        boton6.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        boton7.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        boton8.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        boton9.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
+        boton10.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
     }
     
     @IBAction func siguientePregunta(sender: AnyObject) {

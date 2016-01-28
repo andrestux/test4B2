@@ -303,6 +303,16 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="boton1" destination="MWM-kH-ILD" id="BZ7-6q-KdM"/>
+                        <outlet property="boton10" destination="5cB-Vk-hj9" id="Kif-r5-bed"/>
+                        <outlet property="boton2" destination="YK4-fw-wFb" id="R6h-6F-6bb"/>
+                        <outlet property="boton3" destination="eqI-C3-fwc" id="XfL-Jo-zn8"/>
+                        <outlet property="boton4" destination="Gyr-rg-auZ" id="m3G-g2-WxN"/>
+                        <outlet property="boton5" destination="7h0-zr-hJv" id="Aks-91-nsy"/>
+                        <outlet property="boton6" destination="A90-Nc-0S3" id="usT-E3-UNb"/>
+                        <outlet property="boton7" destination="Ite-gX-2bN" id="nxQ-YR-BDE"/>
+                        <outlet property="boton8" destination="sss-sm-RIo" id="NA7-FV-eOR"/>
+                        <outlet property="boton9" destination="YXg-m5-dpG" id="pn1-U9-G6R"/>
                         <outlet property="botonA" destination="hl4-1f-Ilc" id="YxG-bU-geA"/>
                         <outlet property="botonB" destination="dhD-96-vbS" id="wyX-nw-g62"/>
                         <outlet property="botonC" destination="xZn-6r-4tk" id="w2s-Yp-YdP"/>
