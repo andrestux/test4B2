@@ -182,16 +182,16 @@ class preguntasViewController: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        var contador = 0
+        var contadorAciertos = 0
         let destino = segue.destinationViewController as! resultadosViewController
         
         for x in 0...arrayRespuestas.count - 1{
             if(arrayRespuestas[x] == arrayPreguntas[x].corr){
-                contador++;
+                contadorAciertos++;
             }
         }
         
-        destino.resultado = String(contador)
+        destino.resultado = String(contadorAciertos)
     }
     
 
